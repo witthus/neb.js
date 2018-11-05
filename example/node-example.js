@@ -47,7 +47,7 @@ if (formAddr.getAddressString() != tx.from.getAddressString()) {
 }
 
 var cryptoUtils = Nebulas.CryptoUtils;
-console.log("black：" + cryptoUtils.sha3("").toString("hex"));
+console.log("blank：" + cryptoUtils.sha3("").toString("hex"));
 console.log("Hello, world：" + cryptoUtils.sha3("Hello, world").toString("hex"));
 
 console.log("=======test compatibility version3/version4=======");
